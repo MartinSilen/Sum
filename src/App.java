@@ -12,8 +12,8 @@ public class App {
                     System.out.println("Goodbye");
                     break;
                 }
-                double operand = Double.parseDouble(com);
-                sum += operand;} catch (Exception e){System.out.println("This is not a number!"); continue;}
+                
+                sum += Double.parseDouble(com);} catch (Exception e){System.out.println("This is not a number!"); continue;}
             System.out.println("Current sum is: " + sum);
 
         }
